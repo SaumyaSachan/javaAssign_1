@@ -1,3 +1,4 @@
+package javaAssign1;
 import java.util.Scanner;
 
 public class VowelChecker {
