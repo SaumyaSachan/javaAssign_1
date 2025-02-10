@@ -1,0 +1,17 @@
+Feature	                Method Overloading	                       Method Overriding
+
+1)Definition	       Defining multiple methods with the           Redefining a method in a subclass that is 
+                       same name but different parameters 	          already defined in its parent class.
+                        within the same class.
+
+2)Parameters   	      Must be different (either in number,      	Must be the same as the parent class method.
+                      type, or both).
+
+3)Return                Type	Can be different.	                 Must be the same (or a covariant return type).
+
+4)Access Modifier	    Can have any access modifier.              Cannot have a more restrictive access 
+                                                                modifier than the overridden method.
+
+5)Static Methods	    Can be overloaded.	                     Cannot be overridden (static methods are hidden).
+
+6)Runtime Behavior	   Determined at compile time.	              Determined at runtime (dynamic method dispatch).
